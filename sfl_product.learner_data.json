@@ -1,0 +1,118 @@
+[
+  {
+    "_id": {
+      "$oid": "6658709f3d7238bcfa694651"
+    },
+    "status": 1,
+    "created_by": {
+      "$oid": "661114f4ad6de22d9ab907d3"
+    },
+    "organization_id": {
+      "$oid": "66584b9ebfe5050b9dc3d88e"
+    },
+    "super_admin": {
+      "$oid": "661114f4ad6de22d9ab907d3"
+    },
+    "valid_from": {
+      "$date": "2024-03-31T00:00:00.000Z"
+    },
+    "valid_to": {
+      "$date": "2024-07-31T00:00:00.000Z"
+    },
+    "learner_name": "Solaimuthu",
+    "email_id": "solaimuthu006@gmail.com",
+    "alt_email_id": "",
+    "college_reg_no": "A12345",
+    "date_of_birth": null,
+    "mobile_no": null,
+    "department": "MBA",
+    "course_name": "MBA",
+    "department_section": "A",
+    "gender": "Male",
+    "password": "$2b$10$XFpNKj2ES9beP8vOxUZG2.KmjBgJ9U8/8WgQ.G4uQoGZ0kdfxAq9u",
+    "passed_out": 2026,
+    "skill_set": [],
+    "linkedin_url": "linkedin.com",
+    "leetcode_url": "",
+    "github_url": "",
+    "naukri_url": "",
+    "tag_1": "",
+    "tag_2": "",
+    "address": "",
+    "state": "",
+    "country": "",
+    "programs_assigned": [
+      {
+        "program_id": {
+          "$oid": "66a0b52e5b0d7eb1a3d18d6c"
+        },
+        "_id": {
+          "$oid": "665ebff3b1443b91b4f049f9"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "665878d93d7238bcfa69479a"
+    },
+    "status": 1,
+    "created_by": {
+      "$oid": "661114f4ad6de22d9ab907d3"
+    },
+    "organization_id": {
+      "$oid": "6658743b3d7238bcfa6946c8"
+    },
+    "super_admin": {
+      "$oid": "661114f4ad6de22d9ab907d3"
+    },
+    "valid_from": {
+      "$date": "2024-05-31T00:00:00.000Z"
+    },
+    "valid_to": {
+      "$date": "2024-07-31T00:00:00.000Z"
+    },
+    "learner_name": "sfllearner2",
+    "email_id": "whitehat7890@gmail.com",
+    "alt_email_id": "yopmail.com",
+    "college_reg_no": "ABCEC_123456",
+    "date_of_birth": null,
+    "mobile_no": null,
+    "department": "MBA",
+    "course_name": "MBA",
+    "department_section": "A",
+    "gender": "Male",
+    "password": "$2b$10$00i.1lUZtXk149CWctO2dee4Yc1QEJq/t8ZuWzlGbK2bJonuY.Kiq",
+    "passed_out": 2026,
+    "skill_set": [],
+    "linkedin_url": "",
+    "leetcode_url": "",
+    "github_url": "",
+    "naukri_url": "",
+    "tag_1": "",
+    "tag_2": "",
+    "address": "",
+    "state": "",
+    "country": "",
+    "programs_assigned": [
+      {
+        "program_id": {
+          "$oid": "66a087495b0d7eb1a3d18cdf"
+        },
+        "_id": {
+          "$oid": "66598ea93d7238bcfa695089"
+        }
+      },
+      {
+        "program_id": {
+          "$oid": "66a0b52e5b0d7eb1a3d18d6c"
+        },
+        "_id": {
+          "$oid": "665ebff3b1443b91b4f049f0"
+        }
+      }
+    ],
+    "__v": 0
+  }
+]
