@@ -20,7 +20,7 @@ const checkAndSendEmails = () => {
                         learnerData.forEach(learner => {
                             learner.programs_assigned.forEach(programAssigned => {
                                 if (programAssigned.program_id.$oid === program._id.$oid) {
-                                    const emailBody = `Dear ${learner.learner_name},\n\nThe course "${courseName}" has ended today. Please check the task "${taskName}".\n\nBest regards,\nYour Learning Platform`;
+                                    const emailBody = `Dear ${learner.learner_name},\n\nThe course "${courseName}" is going to end today. Please check the task "${taskName}".\n\nBest regards,\nYour Learning Platform`;
                                     console.log(`Sending email to ${learner.email_id}`);
                                     sendEmail(learner.email_id, `Course "${courseName}" Ended`, emailBody)
                                         .then(() => console.log(`Email sent to ${learner.email_id}`))
@@ -37,4 +37,5 @@ const checkAndSendEmails = () => {
     });
 };
 
-checkAndSendEmails();
+// Export the function
+module.exports = { checkAndSendEmails };
